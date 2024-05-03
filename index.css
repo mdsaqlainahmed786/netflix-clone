@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d253acf4-a1e2-4462-a416-f78802dc2d85/f04bf88c-f71c-4d02-82ed-adb870b8f8db/IN-en-20240429-POP_SIGNUP_TWO_WEEKS-perspective_WEB_658a042e-62cf-473d-8da0-7b875f23e2ef_small.jpg");
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+nav {
+  position: absolute;
+  width: 100%;
+}
+nav img {
+  height: 100px;
+  z-index: 10;
+  position: relative;
+}
+#lang {
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+.box {
+  width: 100%;
+  height: 80vh;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+}
+.sign-btn {
+  background-color: rgb(229, 9, 20);
+  border-radius: 5px;
+  color: white;
+  border-color: rgb(232, 9, 20);
+  padding: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sign-btn:hover {
+  background-color: darkred;
+  border-color: darkred;
+}
+#lang {
+  padding: 3px;
+  border-color: white;
+  border-radius: 2px;
+}
+.main-sec {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap:10px;
+}
+.main-heading1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  padding-top: 100px;
+  font-weight: bold;
+  text-align:center;
+}
+.main-heading2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  text-align:center;
+}
+.main-heading3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align:center;
+}
+/* @media screen and (max-width: 950px) {
+  .main-heading1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .main-heading2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    line-height: 2;
+  }
+  .main-heading3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .main-heading1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+    font-weight: bolder;
+  }
+  .main-heading2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 2;
+  }
+  .main-heading3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .main-heading1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+} */
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-width: 10vw;
+}
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: medium;
+ /* Placeholder text color */
+}
+
+.input-field{
+  width: 18vw;
+  padding:15px;
+  max-width: 400px;
+  min-width: 200px;
+  border: none;
+  margin-right:7px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.2); /* Greyish transparent input field */
+  color: white;
+  border: 1px solid gray;
+}
+.getStrt {
+  background-color: rgb(229, 9, 20);
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: large;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.getStrt:hover {
+  background-color: darkred;
+  border-color: darkred;
+}
+@media  screen and (max-width: 650px) {
+  .input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .input-field{
+    margin-bottom:20px;
+    width: 100%;
+  }
+  .getStrt{
+    width: 40%;
+  }
+  .input-field::placeholder{/* Hide overflow placeholder text */
+    content: "...";
+  }
+}
+
+.web-broder {
+  width: 100%;
+  background-color: rgb(35,35,35);
+  height: 12px;
+}
