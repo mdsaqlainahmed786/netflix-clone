@@ -214,14 +214,14 @@ nav img {
   }
   .table-text-1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+ 
     text-align: center;
     margin-bottom: 20px;
   }
   .table-text-2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 15px;
+  
     text-align: center;
   }
   .table-png {
@@ -337,6 +337,18 @@ nav img {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 15px;
+  }
+  .table-text-1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .table-text-2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 550px) {
@@ -538,8 +550,58 @@ nav img {
   color: white;
   cursor: pointer;
 }
-.hero2{
-    background-color: black;
-    position: relative;
-    padding-bottom: 30px;
+.hero2 {
+  background-color: black;
+  position: relative;
+  padding-bottom: 30px;
+}
+footer {
+  margin: auto;
+  max-width: 85vw;
+}
+footer .span {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  color:white;
+  padding: 50px 0;
+  font-size: medium;
+}
+.span span {
+  text-decoration: underline;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.footer-sec a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+#lang2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 17px;
+  width: 100px;
+}
+@media screen and (max-width: 970px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-sec {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  footer .span {
+    padding: 20px 0px;
+  }
 }
