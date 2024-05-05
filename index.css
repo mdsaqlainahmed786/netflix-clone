@@ -550,6 +550,10 @@ nav img {
   color: white;
   cursor: pointer;
 }
+.getStrt2:hover {
+  background-color: darkred;
+  border-color: darkred;
+}
 .hero2 {
   background-color: black;
   position: relative;
