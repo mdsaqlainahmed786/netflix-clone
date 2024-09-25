@@ -24,6 +24,7 @@ nav img {
 #lang {
   background-color: black;
   color: white;
+  cursor:pointer;
   padding: 2px;
 }
 .box {
@@ -593,6 +594,7 @@ footer .span {
   padding: 10px;
   border-radius: 5px;
   margin-top: 17px;
+  cursor: pointer;
   width: 100px;
 }
 @media screen and (max-width: 970px) {
